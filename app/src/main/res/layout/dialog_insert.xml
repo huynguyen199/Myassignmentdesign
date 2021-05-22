@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thêm khoàn thu chi"
+        android:gravity="center"
+        android:id="@+id/txtkhoan_tc"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtkhoan_tc"
+        android:hint="Tên khoản thu chi"
+        android:id="@+id/edittenkhoan_tc"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittenkhoan_tc"
+        android:hint="Ngày"
+        android:id="@+id/editngay"
+        />
+    <EditText
+        android:id="@+id/editmoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editngay"
+        android:hint="Tiền"
+        />
+    <EditText
+        android:id="@+id/editghichu"
+        android:hint="Ghi chú"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editmoney"
+        />
+    <Spinner
+        android:id="@+id/spinner_loai"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editghichu"
+        />
+
+
+</RelativeLayout>
